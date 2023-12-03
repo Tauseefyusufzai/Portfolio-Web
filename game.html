@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tauseef-Yusufzai-Portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" id="home">
+                <a href="tauseef.html">HOME</a>
+                <a href="index.html">TECHS</a>
+                <a href="art.html">ART GALLERY</a>
+            </div>
+            <div class="right">
+                <a href="tauseef.html"><img src="./Image1/Tauseeflogoname.png" width="300px"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="gamesection">
+            <div class="gameleft">
+                <div><b>GTA San Andreas<br>Graphic Mod V1</b></div>
+                <div>
+                    <p style="font-size: 17px;">Enter the realm of gaming excellence with Tauseef Yusufzai GAME.
+                        Experience the thrill of customized game modifications that take your gaming adventures to new
+                        heights. Tauseef Yusufzai GAME is also at the forefront of online game development, delivering
+                        cutting-edge and immersive gaming experiences for enthusiasts around the globe.<br><br>Transforming
+                        the virtual world into a visual masterpiece. Elevating GTA
+                        San Andreas' graphic game with mods for unparalleled low-end PC experiences. transforming
+                        virtual landscapes one pixel at a time | Bringing high-quality
+                        graphics to low-end PCs with my GTA San Andreas mod</p>
+                </div>
+                <span id="element"></span>
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['Released in 2021', 'For low end PC', '40000+ Downloads'],
+                        typeSpeed: 120,
+                    });
+                </script><br>
+                <a href="https://www.gtainside.com/en/sanandreas/mods/158618-gta-sa-graphics/" target="_blank"><button
+                        class="btn"><i class="fa fa-download"></i> Download File Now</button></a>
+            </div>
+            <div class="gameright">
+                <img src="./Image1/gamesimg/gallery235.jpg">
+            </div>
+        </section>
+    </main>
+    <section class="game2section">
+        <h2>Description</h2>
+        <div>
+            <p style="font-size:15px;">The mod garnered 40,000+ downloads, showcasing the ability to create popular and
+                engaging content within the gaming community. This project involved designing and implementing
+                visual enhancements to enhance the gaming experience for users. Received positive feedback and
+                reviews from the modding community.</p>
+        </div><br>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 9</div>
+                <img src="./Image1/gamesimg/gallery228.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 9</div>
+                <img src="./Image1/gamesimg/gallery229.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 9</div>
+                <img src="./Image1/gamesimg/gallery230.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 9</div>
+                <img src="./Image1/gamesimg/gallery233.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 9</div>
+                <img src="./Image1/gamesimg/gallery235.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 9</div>
+                <img src="./Image1/gamesimg/gallery238.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 9</div>
+                <img src="./Image1/gamesimg/gallery255.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 9</div>
+                <img src="./Image1/gamesimg/gallery256.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 9</div>
+                <img src="./Image1/gamesimg/gallery257.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+        </script>
+        <!--<script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            }
+        </script>-->
+    </section>
+
+    <footer>
+        <div class="footerbox">
+            <img class="namelogo" src="./Images/Tauseeflogoname1.png">
+            <p>Association with Rockstar Game Production <img src="./Image1/gamesimg/rockstarlogo.png" width="30px">
+                <br>Copyright <i class="fa fa-copyright"></i> 2018 All rights reserved.<br>
+                Contact info: &nbsp; <i class="fa fa-phone"></i> Phone No. 7525949094 &nbsp;&nbsp;
+                <i class="fa fa-envelope"></i> Email-id tauseefakhtaryusufzai@gmail.com
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

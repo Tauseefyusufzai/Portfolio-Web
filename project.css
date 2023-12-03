@@ -1,0 +1,436 @@
+/*main page tauseef.html*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(./Image1/bgimage2.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    color: rgb(7, 7, 7);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    /*background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);*/
+
+}
+
+.left {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.left a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 28px 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.left a:hover {
+    background-color: rgb(81, 101, 140);
+    color: rgb(255, 255, 255);
+}
+
+.right {
+    margin-right: 50px;
+}
+
+.tauseefsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px;
+    margin-top: 60px;
+}
+
+.tauseefleft {
+    font-size: 3rem;
+    width: 50%;
+}
+
+.tauseefright {
+    align-items: center;
+    width: 40%;
+}
+
+.tauseefright video {
+    width: 100%;
+}
+
+.secoundsection {
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.Explore1 {
+    text-align: center;
+}
+
+.Explore1 .btn {
+    background-color: rgb(81, 101, 140);
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Explore1 .btn:hover {
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(49, 66, 100);
+}
+.disc{
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.tauseef2section {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.tauseef2section h2 {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.slideshow-container1 {
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+}
+
+
+footer {
+    background-color: rgb(9, 17, 34);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footerbox {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    height: 100px;
+
+}
+
+.namelogo {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*secound page game.html*/
+
+.gamesection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px;
+    margin-top: 60px;
+}
+
+.gameleft {
+    font-size: 3rem;
+    width: 50%;
+}
+
+.gameright {
+    text-align: center;
+    width: 50%;
+}
+
+.gameright img {
+    border: 10px solid white;
+    width: 550px;
+}
+
+.gameleft .btn {
+    background-color: rgb(81, 101, 140);
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.gameleft .btn:hover {
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(49, 66, 100);
+}
+
+#element {
+    font-size: 2rem;
+    color: rgb(81, 101, 140);
+}
+
+.game2section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mySlides {
+    display: none
+}
+
+.slideshow-container img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+
+
+
+
+
+
+/* third padge art section*/
+.profile-box0 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 20px;
+
+}
+
+/* contact */
+input[type=text],
+input[type=number],
+input[type=file],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.btn2 {
+    background-color: rgb(81, 101, 140);
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.btn2:hover {
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(49, 66, 100);
+}
+
+.contact {
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tauseef3section{
+    padding: 5%;
+    margin: 10%;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row>.column {
+    padding: 15px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    display: none;
+    /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    transition: 0.2s;
+}
+.content:hover{
+    transition: 0.2s;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+    background-color: rgb(81, 101, 140);
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(49, 66, 100);
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(81, 101, 140);
+    padding: 20px;
+    margin-top: 30px;
+}

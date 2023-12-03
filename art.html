@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tauseef-Yusufzai-Portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" id="home">
+                <a href="index.html">HOME</a>
+                <a href="game.html">GAMES</a>
+                <a href="index.html">TECHS</a>
+            </div>
+            <div class="right">
+                <a href="tauseef.html"><img src="./Image1/Tauseeflogoname.png" width="300px"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="tauseefsection">
+            <div class="tauseefleft">
+                <div>Tauseef Yusufzai ART Elevating Creativity</div>
+                <div>
+                    <p style="font-size: 17px;">Immerse yourself in the world of artistic expression with Tauseef Yusufzai ART. I am an
+                        accomplished artist, specializes in crafting bespoke portrait sketches and
+                        captivating landscape paintings. Each piece is a testament to passion and skill, creating
+                        timeless and meaningful art for your home or as a special gift.<br><br>
+                        Bringing life to canvases and sketching moments into exquisite
+                        masterpieces. Capturing the world through the lens of art one stroke at a time. Expressing
+                        emotions through art | Creating captivating portraits, sketches, and vibrant landscape
+                        paintings.
+                    </p>
+                </div>
+                <span id="element"></span>
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['Explore the ART Gallery', 'Landscape painting', 'Portrait Sketch'],
+                        typeSpeed: 120,
+                    });
+                </script>
+            </div>
+            <div class="tauseefright">
+                <img src="./Image1/TauseefARTlogo.png">
+            </div>
+        </section>
+        <section class="tauseef2section">
+            <h2>Order your Portrait Sketch Now: </h2>
+            <div class="profile-box0">
+                <div class="contact">
+                    <form id="upload-form">
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Contact No</label>
+                        <input type="number" id="lname" name="lastname" placeholder="Your Contact No...">
+
+                        <label for="image-upload">Upload Image:</label>
+                        <input type="file" id="image-upload" accept="image/*" required>
+
+                        <label for="details">Additional details:</label>
+                        <textarea id="details" rows="4"
+                            placeholder="Provide specific details about the portrait"></textarea>
+
+                        <button class="btn2" type="button" onclick="submitOrder()">Submit Order</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="tauseef3section">
+            <h2 style="font-size: 3rem"><i class="fa fa-photo"></i> ART Gallery:</h2><br>
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('sketch')"> Sketch</button>
+                <button class="btn" onclick="filterSelection('painting')"> Painting</button>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s1.jpg" target="_blank">
+                        <img src="./Image1/art/s1.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s2.jpg" target="_blank">
+                        <img src="./Image1/art/s2.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s3.jpg" target="_blank">
+                        <img src="./Image1/art/s3.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s4.jpg" target="_blank">
+                        <img src="./Image1/art/s4.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s5.jpg" target="_blank">
+                        <img src="./Image1/art/s5.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s6.jpg" target="_blank">
+                        <img src="./Image1/art/s6.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s7.jpg" target="_blank">
+                        <img src="./Image1/art/s7.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s8.jpg" target="_blank">
+                        <img src="./Image1/art/s8.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s9.jpg" target="_blank">
+                        <img src="./Image1/art/s9.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s10.jpg" target="_blank">
+                        <img src="./Image1/art/s10.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s11.jpg" target="_blank">
+                        <img src="./Image1/art/s11.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s12.jpg" target="_blank">
+                        <img src="./Image1/art/s12.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s13.jpg" target="_blank">
+                        <img src="./Image1/art/s13.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s14.jpg" target="_blank">
+                        <img src="./Image1/art/s14.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s15.jpg" target="_blank">
+                        <img src="./Image1/art/s15.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s16.jpg" target="_blank">
+                        <img src="./Image1/art/s16.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s17.jpg" target="_blank">
+                        <img src="./Image1/art/s17.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s18.jpg" target="_blank">
+                        <img src="./Image1/art/s18.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s19.jpg" target="_blank">
+                        <img src="./Image1/art/s19.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s20.jpg" target="_blank">
+                        <img src="./Image1/art/s20.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s21.jpg" target="_blank">
+                        <img src="./Image1/art/s21.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s22.jpg" target="_blank">
+                        <img src="./Image1/art/s22.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s23.jpg" target="_blank">
+                        <img src="./Image1/art/s23.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s24.jpg" target="_blank">
+                        <img src="./Image1/art/s24.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s25.jpg" target="_blank">
+                        <img src="./Image1/art/s25.jpg"  style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s26.jpg" target="_blank">
+                        <img src="./Image1/art/s26.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column sketch">
+                    <div class="content"><a href="./Image1/art/s27.jpg" target="_blank">
+                        <img src="./Image1/art/s27.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p1.jpg" target="_blank">
+                        <img src="./Image1/art/p1.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p2.jpg" target="_blank">
+                        <img src="./Image1/art/p2.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p3.jpg" target="_blank">
+                        <img src="./Image1/art/p3.jpg"" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p4.jpg" target="_blank">
+                        <img src="./Image1/art/p4.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p5.jpg" target="_blank">
+                        <img src="./Image1/art/p5.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p6.jpg" target="_blank">
+                        <img src="./Image1/art/p6.jpg"style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p7.jpg" target="_blank">
+                        <img src="./Image1/art/p7.jpg"style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p8.jpg" target="_blank">
+                        <img src="./Image1/art/p8.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p9.jpg" target="_blank">
+                        <img src="./Image1/art/p9.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p10.jpg" target="_blank">
+                        <img src="./Image1/art/p10.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p11.jpg" target="_blank">
+                        <img src="./Image1/art/p11.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p12.jpg" target="_blank">
+                        <img src="./Image1/art/p12.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p13.jpg" target="_blank">
+                        <img src="./Image1/art/p13.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p14.jpg" target="_blank">
+                        <img src="./Image1/art/p14.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p15.jpg" target="_blank">
+                        <img src="./Image1/art/p15.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p16.jpg" target="_blank">
+                        <img src="./Image1/art/p16.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+
+                <div class="column painting">
+                    <div class="content"><a href="./Image1/art/p17.jpg" target="_blank">
+                        <img src="./Image1/art/p17.jpg" style="width:100%"></a>
+                    </div>
+                </div>
+                <!-- END GRID -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerbox">
+            <img class="namelogo" src="./Images/Tauseeflogoname1.png">
+            <p>Copyright <i class="fa fa-copyright"></i> 2018 All rights reserved.<br>
+                Contact info: &nbsp; <i class="fa fa-phone"></i> Phone No. 7525949094 &nbsp;&nbsp;
+                <i class="fa fa-envelope"></i> Email-id tauseefakhtaryusufzai@gmail.com
+            </p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tauseef-Yusufzai-Portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" id="home">
+                <a href="index.html">HOME</a>
+                <a href="game.html">GAMES</a>
+                <a href="index.html">TECHS</a>
+                <a href="art.html">ART GALLERY</a>
+            </div>
+            <div class="right">
+                <a href="tauseef.html"><img src="./Image1/Tauseeflogoname.png" width="300px"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="tauseefsection">
+            <div class="tauseefleft">
+                <div>
+                    <h1>Welcome</h1>
+                    <h5>Tauseef Yusufzai: Where Art, Game, and Tech Converge</h5>
+                </div>
+                <div>
+                    <p style="font-size: 17px;">
+                        Welcome to Tauseef Yusufzai, an innovative organization that brings together the worlds of art,
+                        gaming, and technology. As the founder and creative force behind the brand, Tauseef Akhtar
+                        Yusufzai, your one-stop destination for unique and personalized experiences Aim is to build
+                        Technology, Provide Services and Product that help People.<br><br>
+                        Tauseef Yusufzai brings a holistic approach to innovation, seamlessly
+                        integrating art, gaming, and technology. Whether you are seeking a personalized artwork, an
+                        enhanced gaming experience, or reliable technical support, Tauseef Yusufzai's diverse portfolio
+                        has you covered.</p>
+                </div>
+                <span id="element"></span>
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['Explore the ART Gallery', 'Download Games file', 'Play Awsome Games online', 'All in one place'],
+                        typeSpeed: 120,
+                    });
+                </script>
+            </div>
+            <div class="tauseefright">
+                <img src="Image1/Logo-Animate-Hd-unscreen.gif">
+            </div>
+        </section>
+        <section class="secoundsection">
+            <div class="Explore1">
+                <img src="./Image1/TauseefGAMElogo.png" width="250px">
+                <a href="game.html"><button class="btn"><i class="fa fa-arrow-circle-o-right"></i> Explore</button></a>
+            </div>
+            <div class="Explore1">
+                <img src="./Image1/Tauseeflogo.png" width="250px">
+                <a href="tauseef.html"><button class="btn"><i class="fa fa-arrow-circle-o-right"></i>
+                        Explore</button></a>
+            </div>
+            <div class="Explore1">
+                <img src="./Image1/TauseefARTlogo.png" width="250px">
+                <a href="art.html"><button class="btn"><i class="fa fa-arrow-circle-o-right"></i>
+                        Explore</button></a>
+            </div>
+        </section>
+        <p class="disc">Explore the endless possibilities of collaboration with Tauseef Yusufzai. From commissioning
+            unique
+            artworks to partnering on cutting-edge game projects or seeking technical expertise, Tauseef Akhtar
+            Yusufzai welcomes collaborations that push the boundaries of creativity and innovation.</p>
+        <section class="tauseef2section">
+            <h2><i class="fa fa-line-chart"></i> Product</h2>
+            <div class="slideshow-container1">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./Image1/product/IMG_20230906_141942.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./Image1/product/IMG_20230906_142016.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./Image1/product/IMG_20230906_142038.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+
+            <script>
+                let slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+        </section>
+        <p class="disc"> Discover a world where artistry meets technology, and gaming becomes an immersive adventure. Tauseef Yusufzai is
+        not just a brand; it's a journey of exploration, creativity, and excellence. Join us in redefining the
+        boundaries of what is possible.</p>
+    </main>
+    <footer>
+        <div class="footerbox">
+            <img class="namelogo" src="./Images/Tauseeflogoname1.png">
+            <p>Copyright <i class="fa fa-copyright"></i> 2018 All rights reserved.<br>
+                Contact info: &nbsp; <i class="fa fa-phone"></i> Phone No. 7525949094 &nbsp;&nbsp;
+                <i class="fa fa-envelope"></i> Email-id tauseefakhtaryusufzai@gmail.com
+            </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
